@@ -1,0 +1,26 @@
+<div class="quizz__container">
+
+    <div class="quizz_logo">
+        <img src="https://github.com/regianegaspar/projeto-chapeu/blob/main/src/assets/imgs/chapeu.png?raw=true" alt="imagem do chapéu seletor">
+        <h2>{{title}}</h2>
+    </div>
+
+    <div *ngIf="!finished" class="quizz_questions">
+        <h3>{{questionSelected.question}}</h3>
+    </div>
+
+    <div *ngIf="!finished"class="quizz_options">
+        <button 
+        *ngFor="let option of questionSelected.options; let i = index"
+        (click)="playerChoose(option.alias)" 
+        class="btn-option">
+            {{option.name}}
+        </button>
+    </div>
+
+    <div *ngIf="finished" class="quizz_results">
+        <h1>O seu resultado é:</h1>
+        <p>{{answerSelected}}</p>
+        <p>{{answerSelected2}}</p>
+    </div>
+</div>

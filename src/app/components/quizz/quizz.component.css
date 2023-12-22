@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.quizz__container{
+    background-color: rgba(255, 255, 255, 0.434);
+    border-radius: 10px;
+    color: #000;
+    height: 90%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    width: 80%;
+}
+
+.quizz_logo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.quizz_logo > h2{
+    margin-top: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-shadow: 0px 1px 0px antiquewhite;
+}
+
+.quizz_logo>img{
+    height: 150px;
+}
+
+.quizz_questions{
+    align-items: center;
+    /* background-color: #644ed2;
+    border: 1px solid #4224d9; */
+    border-radius: 8px;
+    display: flex;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    height: 200px;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.quizz_options{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.btn-option{
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 8px;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    font-size: 12px;
+    padding: 5px;
+    text-decoration: none;
+    width: 48%;
+}
+
+.btn-option:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-option:active{
+    position: relative;
+    top: 1px;
+}
+
+.quizz_results{
+    align-items: center;
+    background-color: #0a0311b3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 350px;
+    justify-content: center;
+    padding: 30px;
+    width: 100%;
+}
+
+.quizz_results > h1{
+    color: antiquewhite;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-shadow: 0px 1px 0px #000;
+}
+
+.quizz_results > p{
+    color: antiquewhite;
+    font-size: 24px
+}
+
+@media screen and (max-width:700px){
+    .btn-option{
+        font-size: 12px;
+        padding: 5px;
+    }
+}

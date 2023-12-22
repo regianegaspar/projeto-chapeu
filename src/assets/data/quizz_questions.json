@@ -1,0 +1,119 @@
+{
+  "title":"Descubra sua casa em Hogwarts",
+  "questions":[
+    {
+      "id":1,
+      "question": "O que você mais valoriza em um amigo?",
+      "options":[
+        {"id": 3, "name":"Inteligência", "alias":"C"},
+        {"id": 1, "name":"Lealdade", "alias":"A"},
+        {"id": 2, "name":"Ambição", "alias":"B"},
+        {"id": 4, "name":"Compaixão", "alias":"D"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Escolha uma atividade de lazer:",
+      "options":[
+        {"id": 4, "name":"Trabalho voluntário", "alias":"D"},
+        {"id": 2, "name":"Estratégia de jogos", "alias":"B"},
+        {"id": 1, "name":"Esportes radicais", "alias":"A"},
+        {"id": 3, "name":"Leitura", "alias":"C"}
+        
+      ]
+    },
+    {
+      "id":3,
+      "question": "Qual é o seu feitiço favorito?",
+      "options":[
+        {"id": 1, "name":"Expelliarmus", "alias":"A"},
+        {"id": 2, "name":"Sectumsempra", "alias":"B"},
+        {"id": 3, "name":"Lumos", "alias":"C"},
+        {"id": 4, "name":"Expecto Patronum", "alias":"D"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Se você encontrasse um espelho mágico, o que veria?",
+      "options":[
+        {"id": 1, "name":"Realizações futuras", "alias":"A"},
+        {"id": 3, "name":"Sabedoria", "alias":"C"},
+        {"id": 2, "name":"Riqueza e poder", "alias":"B"},
+        {"id": 4, "name":"Amigos e entes queridos", "alias":"D"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "O que você faria se descobrisse um segredo mágico?",
+      "options":[
+        {"id": 3, "name":"Guardaria para si mesmo(a) e estudaria discretamente", "alias":"C"},
+        {"id": 2, "name":"Usaria para obter vantagem pessoal", "alias":"B"},
+        {"id": 1, "name":"Compartilharia com seus amigos mais próximos", "alias":"A"},
+        {"id": 4, "name":"Usaria para ajudar os outros", "alias":"D"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Escolha um feitiço para aprender:",
+      "options":[
+        {"id": 2, "name":"Imperius", "alias":"B"},
+        {"id": 1, "name":"Patrono", "alias":"A"},
+        {"id": 4, "name":"Accio", "alias":"D"},
+        {"id": 3, "name":"Reducto", "alias":"C"}
+        
+      ]
+    },
+    {
+      "id":7,
+      "question": "Qual é o seu tipo de poção favorita?",
+      "options":[
+        {"id": 1, "name":"Felix Felicis (Poção da Sorte)", "alias":"A"},
+        {"id": 2, "name":"Polissuco", "alias":"B"},
+        {"id": 3, "name":"Poção de Cura", "alias":"C"},
+        {"id": 4, "name":"Amortentia (Poção do Amor)", "alias":"D"}
+      ]
+    },
+    {
+      "id":8,
+      "question": "Escolha um objeto mágico:",
+      "options":[
+        {"id": 1, "name":"Varinha", "alias":"A"},
+        {"id": 2, "name":"Anel", "alias":"B"},
+        {"id": 3, "name":"Livro encantado", "alias":"C"},
+        {"id": 4, "name":"Amuleto", "alias":"D"}
+      ]
+    },
+    {
+      "id":9,
+      "question": "Escolha um sabor de feijõeszinhos de todos os sabores:",
+      "options":[
+        {"id": 3, "name":"Menta", "alias":"C"},
+        {"id": 1, "name":"Morango", "alias":"A"},
+        {"id": 2, "name":"Pimenta", "alias":"B"},
+        {"id": 4, "name":"Chocolate", "alias":"D"}
+      ]
+    },
+    {
+      "id":10,
+      "question": "Escolha um caminho na floresta proibida:",
+      "options":[
+        {"id": 2, "name":"Procurando por criaturas mágicas raras", "alias":"B"},
+        {"id": 3, "name":"Seguindo o caminho mais seguro", "alias":"C"},
+        {"id": 1, "name":"Direto para frente, sem hesitar", "alias":"A"},
+        {"id": 4, "name":"Explorando cada esquina, curioso(a) sobre tudo", "alias":"D"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Grifinória",
+    "B": "Sonserina",
+    "C": "Corvinal",
+    "D": "Lufa-Lufa"
+  },
+  "results2":{
+    "A": "Os grifinórios são notáveis por sua coragem inabalável e comprometimento com a justiça. Eles são líderes naturais, sempre prontos para enfrentar desafios de frente. Com um coração leal e uma forte ética de trabalho, os grifinórios são conhecidos por proteger os mais fracos e lutar por aquilo que é correto. Sua determinação e espírito destemido muitas vezes os destacam em situações difíceis, fazendo deles companheiros confiáveis e verdadeiros defensores da bondade.",
+    "B": "Os sonserinos são indivíduos ambiciosos e astutos, sempre buscando alcançar seus objetivos com maestria. Sua inteligência afiada e habilidades estratégicas muitas vezes os colocam no caminho do sucesso. Movidos pela ambição, os sonserinos valorizam a busca pelo poder e reconhecem as oportunidades onde outros podem ver obstáculos. Apesar de sua reputação, muitos sonserinos são leais aos seus amigos e são capazes de grandes feitos quando unem suas forças.",
+    "C": "Os corvinais são conhecidos por sua sabedoria e amor pelo aprendizado. Sempre em busca de conhecimento, eles apreciam a mente aguçada e valorizam a inteligência. Os corvinais são pensadores profundos, muitas vezes desfrutando de livros e debates intelectuais. Sua curiosidade inata os leva a explorar as maravilhas do mundo mágico e a compartilhar seu conhecimento com os outros de maneira benevolente.",
+    "D": "Os lufanos são caracterizados por sua bondade e paciência. Eles valorizam a igualdade, aceitando os outros pelo que são. Com um coração generoso, os lufanos são amigos leais e estão sempre dispostos a ajudar aqueles ao seu redor. Sua abordagem calorosa e compassiva cria um ambiente acolhedor, tornando-os amados por muitos."
+  }
+}
